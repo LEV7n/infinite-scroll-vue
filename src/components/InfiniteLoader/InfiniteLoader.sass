@@ -1,0 +1,31 @@
+main
+  display: flex
+  flex: 1
+  flex-direction: column
+  gap: 2rem
+
+.users
+  display: flex
+  flex: 1
+  flex-direction: column
+  gap: 2rem
+  overflow: hidden
+  overflow-y: scroll
+
+  .page
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 2rem
+
+    &:empty
+      display: none
+
+  .loading
+    flex-basis: 100%
+
+@media screen and (max-width: 1035px)
+  .users
+    align-items: center
+    
+    .page
+      grid-template-columns: 1fr
