@@ -1,4 +1,4 @@
-# Vue 3 + Vite
+# Infinite scroll Vue 3
 
 Example demonstrate infinite scroll by Levinez Michael
 
