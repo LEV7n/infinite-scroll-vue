@@ -32,3 +32,10 @@ To install
 &emsp;&emsp;`nametohsl.js` - my script to colorize users while we awaiting for avatar\
 &emsp;`models` >\
 &emsp;&emsp;`Item.js` - model that using `InfiniteLoader` to structurize received items
+
+# Yo listen up, it's a story..
+I decided to do all that possible using classes (Factory/Builder) because in my mind it's only way
+to do project within beautiful and correct structure, interchangeability of classes following patterns.
+
+I don't like singleton/multiton/object pool patterns. I feeling that it slower than factory,
+and have too unelegan look instead of one i used.
