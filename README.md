@@ -13,22 +13,22 @@ To install
 # Project map
 
 `src` >\
-&ensp;`assets` > - just leaving it as is\
-&emsp;... - original contents from vite build\
-&ensp;`components` >\
-&emsp;`InfiniteLoader` > - main component\
-&emsp;&ensp;`InfiniteLoader.js` - separated logic of component i.e. controller\
-&emsp;&ensp;`InfiniteLoader.sass` - styles for component\
-&emsp;&ensp;`InfiniteLoader.vue` - template with most html and minor code injection\
-&emsp;`Item` > - represents feed item (contents of `InfiniteLoader`)\
-&emsp;&ensp;... - same files for each component (js, sass, vue)\
-&emsp;`Pagination` > - help to navigate through pages\
-&emsp;&ensp;... - same files for each component (js, sass, vue)\
-&ensp;`css` >\
-&emsp;`style.sass` - general styles for whole project\
-&ensp;`js` >\
-&emsp;`api.js` - class that do API work\
-&emsp;`main.js` - using for initialization of vue\
-&emsp;`nametohsl.js` - my script to colorize users while we awaiting for avatar\
-&ensp;`models` >\
-&emsp;`Item.js` - model that using `InfiniteLoader` to structurize received items
+&emsp;`assets` > - just leaving it as is\
+&emsp;&emsp;`...` - original contents from vite build\
+&emsp;`components` >\
+&emsp;&emsp;`InfiniteLoader` > - main component\
+&emsp;&emsp;&emsp;`InfiniteLoader.js` - separated logic of component i.e. controller\
+&emsp;&emsp;&emsp;`InfiniteLoader.sass` - styles for component\
+&emsp;&emsp;&emsp;`InfiniteLoader.vue` - template with most html and minor code injection\
+&emsp;&emsp;`Item` > - represents feed item (contents of `InfiniteLoader`)\
+&emsp;&emsp;&emsp;`...` - same files for each component (js, sass, vue)\
+&emsp;&emsp;`Pagination` > - help to navigate through pages\
+&emsp;&emsp;&emsp;`...` - same files for each component (js, sass, vue)\
+&emsp;`css` >\
+&emsp;&emsp;`style.sass` - general styles for whole project\
+&emsp;`js` >\
+&emsp;&emsp;`api.js` - class that do API work\
+&emsp;&emsp;`main.js` - using for initialization of vue\
+&emsp;&emsp;`nametohsl.js` - my script to colorize users while we awaiting for avatar\
+&emsp;`models` >\
+&emsp;&emsp;`Item.js` - model that using `InfiniteLoader` to structurize received items
