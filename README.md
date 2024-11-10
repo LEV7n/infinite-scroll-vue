@@ -10,7 +10,7 @@ To install
 4. Once `npm run build`
 5. For launch `npm run dev`
 
-#Project map
+# Project map
 
 `src` >\
 &ensp;`assets` > - just leaving it as is\
