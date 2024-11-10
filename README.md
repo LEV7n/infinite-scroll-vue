@@ -31,4 +31,4 @@ To install
 &emsp;`main.js` - using for initialization of vue\
 &emsp;`nametohsl.js` - my script to colorize users while we awaiting for avatar\
 &ensp;`models` >\
-&emsp;`Item.js` - model that using `InfiniteLoader` to structurize received items\
+&emsp;`Item.js` - model that using `InfiniteLoader` to structurize received items
