@@ -20,7 +20,7 @@ To install
 &emsp;&ensp;`InfiniteLoader.js` - separated logic of component i.e. controller\
 &emsp;&ensp;`InfiniteLoader.sass` - styles for component\
 &emsp;&ensp;`InfiniteLoader.vue` - template with most html and minor code injection\
-&emsp;`Item` > - represents feed (contents of `InfiniteLoader`)\
+&emsp;`Item` > - represents feed item (contents of `InfiniteLoader`)\
 &emsp;&ensp;... - same files for each component (js, sass, vue)\
 &emsp;`Pagination` > - help to navigate through pages\
 &emsp;&ensp;... - same files for each component (js, sass, vue)\
