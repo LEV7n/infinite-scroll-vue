@@ -39,3 +39,5 @@ to do project within beautiful and correct structure, interchangeability of clas
 
 I don't like singleton/multiton/object pool patterns. I feeling that it slower than factory,
 and have too unelegan look instead of one i used.
+
+P.S. Yeah, i'm maniac of JSDOC =)
