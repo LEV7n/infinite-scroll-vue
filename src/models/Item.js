@@ -66,4 +66,8 @@ export default class Item {
       this[i] = props[i];
     }
   }
+
+  /**
+   * TODO: Possible to do API calls, like edit, remove e.t.c.
+   */
 }
