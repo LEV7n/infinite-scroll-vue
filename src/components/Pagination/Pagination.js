@@ -21,6 +21,8 @@ export default defineComponent({
   computed: {
     /**
      * Calculate that current page so far from start
+     * 
+     * @returns {Boolean}
      */
     showLeftEllipsis() {
       return this.active - this.pageRange > 2;
@@ -28,6 +30,8 @@ export default defineComponent({
 
     /**
      * Calculate that current page so far from end
+     * 
+     * @returns {Boolean}
      */
     showRightEllipsis() {
       return this.active + this.pageRange < this.pages - 1;
@@ -35,11 +39,18 @@ export default defineComponent({
 
     /**
      * Calculate which pages should be showed at center
+     * 
+     * @returns {Array}
      */
     pagesToShow() {
       const
+        /** @type {Number} */
         start = Math.max(2, this.active - this.pageRange),
+
+        /** @type {Number} */
         end = Math.min(this.pages - 1, this.active + this.pageRange),
+
+        /** @type {Array} */
         pages = [];
 
       for (let i = start; i <= end; i++) {
